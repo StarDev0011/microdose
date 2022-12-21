@@ -1,0 +1,68 @@
+{%- assign w_continue = 'no' -%}
+{% assign wlmHideItem_Search = false %}{% assign wlmLockedTags133782 = false %}
+{% assign wlmLockedTags133783 = false %}
+{% assign wlmLockedTags134313 = false %}
+{% assign wlmLockedTags134314 = false %}
+{% assign wlmLockedTags135621 = false %}
+{% assign wlmLockedTags135622 = false %}
+{% for tag in customer.tags %}
+{% if tag == 'aggressive' %}{% assign wlmLockedTags133782 = true %}{% endif %}
+{% if tag == 'very aggressive' %}{% assign wlmLockedTags133783 = true %}{% endif %}
+{% if tag == 'common' %}{% assign wlmLockedTags134313 = true %}{% endif %}
+{% if tag == 'Silver Tier' %}{% assign wlmLockedTags134314 = true %}{% endif %}
+{% if tag == 'Bottles' %}{% assign wlmLockedTags135621 = true %}{% endif %}
+{% if tag == 'Bags' %}{% assign wlmLockedTags135622 = true %}{% endif %}
+{% endfor %}
+
+{%  if wlm-search.object_type == 'product' %}
+{% if wlm-search.id == 7128891621410 %} 
+ {% if customer %}
+{% assign wlmHideItem_Search = true %}{% endif %}
+{% endif %}
+{% endif %}
+
+
+{%  if wlm-search.object_type == 'product' and wlm-search.collections %}
+
+{% for c in wlm-search.collections %}
+
+    {% if c.id == 276709310498 %}
+{% unless customer %}
+{% assign wlmLockON = true %}
+  {% assign wlmHideItem_Search = true %}
+{% else %}
+{% unless wlmLockedTags135622 %}{% assign wlmHideItem_Search = true %}{% endunless %}
+{% else %}{% assign wlmHideItem_Search = true %}{% endunless %}
+
+{% endif %}
+{% endfor %}{% endif %}
+
+{%  if wlm-search.object_type == 'product' and wlm-search.collections %}
+
+{% for c in wlm-search.collections %}
+
+    {% if c.id == 276709343266 %}
+{% unless customer %}
+{% assign wlmLockON = true %}
+  {% assign wlmHideItem_Search = true %}
+{% else %}
+{% unless wlmLockedTags135621 %}{% assign wlmHideItem_Search = true %}{% endunless %}
+{% else %}{% assign wlmHideItem_Search = true %}{% endunless %}
+
+{% endif %}
+{% endfor %}{% endif %}
+{%  if wlm-search.object_type == 'product' %}
+{% if wlm-search.id == 7155973029922 %} 
+ {% unless customer %}
+{% assign wlmLockON = true %}
+  {% assign wlmHideItem_Search = true %}
+{% else %}
+{% endunless %}
+{% endif %}
+{% endif %}
+
+
+
+{% if wlmHideItem_Search == true %}{% continue %}{% endif %}
+
+{%- if wlm_is_render == 'yes' -%}{{- w_continue -}}{%-endif-%}

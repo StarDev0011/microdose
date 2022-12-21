@@ -1,0 +1,399 @@
+{
+  "sections": {
+    "a72d401f-aaca-485e-9af9-00d85beb925f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15080802451490__a72d401f-aaca-485e-9af9-00d85beb925f-1666200103155a7f84-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Being Healthy Doesn't",
+            "heading_size": "h1"
+          }
+        },
+        "5d382844-c4ad-4f3e-8cca-552f367e9f99": {
+          "type": "caption",
+          "settings": {
+            "caption": "Have to Be Boring.",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "template--15080802451490__a72d401f-aaca-485e-9af9-00d85beb925f-1666200103155a7f84-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Real fruit gummies, infused with entry-level doses of THC,<\/p><p>so you can feel just the right amount of good.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "d5488c25-1283-49e3-a034-4265d37f9fdb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/entry-level-doses"
+          }
+        }
+      },
+      "block_order": [
+        "template--15080802451490__a72d401f-aaca-485e-9af9-00d85beb925f-1666200103155a7f84-0",
+        "5d382844-c4ad-4f3e-8cca-552f367e9f99",
+        "template--15080802451490__a72d401f-aaca-485e-9af9-00d85beb925f-1666200103155a7f84-1",
+        "d5488c25-1283-49e3-a034-4265d37f9fdb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/61e9e3ada053d61877459a46_MICRODOSE_B3_copy.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    },
+    "bb4d32c6-c645-435c-ab0a-1d0a5a80c8ea": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"div-block-6\"><div class=\"tiny-text\">(keep exploring)<\/div><div><img src=\"https:\/\/uploads-ssl.webflow.com\/61e0a6d05b9192bf59d011e8\/61e71d01fbf3c8a11870d8db_Website%20Design%20-%20Image%20Creations-11.png\" loading=\"lazy\" alt=\"\" class=\"image-3\"><\/div><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5d4c85c8-11b2-41b5-a6c1-71e06af819cb": {
+      "type": "rich-text",
+      "blocks": {
+        "9df016e1-6a22-4052-ac00-eaf50a6627a6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why Microdose?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "e72da2f3-25ac-4e7b-a984-9636aff49f4a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Other hemp products tend to focus exclusively on CBD with limited attention to harnessing the full power of cannabinoids & terpenes.<\/p><p>Microdose™ is different.<\/p><p>It contains the one & only Balanced-Spectrum™ hemp extract, formulated to deliver the classic effects & benefits of THC, in perfect balance with CBD, CBG, & therapeutic terpenes.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9df016e1-6a22-4052-ac00-eaf50a6627a6",
+        "e72da2f3-25ac-4e7b-a984-9636aff49f4a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f28405b7-cb1e-43fd-929e-21f148172023": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17100663292212__f28405b7-cb1e-43fd-929e-21f148172023-1670486715619e7b4e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Uses & Benefits<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17100663292212__f28405b7-cb1e-43fd-929e-21f148172023-1670486715619e7b4e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Microdose™ was created for endocannabinoid system support & all around wellness, helping you feel like you on your best days, everyday.<\/p><p>Perfect for people who want to feel good, without getting high from just one micro-dose. It’s like the sweet spot between CBD & THC that gives you the benefits of both with a bit more of a mood lift, creative boost, and greater sense of calm.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17100663292212__f28405b7-cb1e-43fd-929e-21f148172023-1670486715619e7b4e-0",
+        "template--17100663292212__f28405b7-cb1e-43fd-929e-21f148172023-1670486715619e7b4e-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    },
+    "c8a8c59d-8b19-4e73-848d-6e31b6aa32a8": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17100663292212__c8a8c59d-8b19-4e73-848d-6e31b6aa32a8-166999472015ab7b2b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/61e71434b6fc108118ed9544_Website_Design_-_Image_Creations-02.png",
+            "title": "",
+            "title1": "",
+            "text": "<p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17100663292212__c8a8c59d-8b19-4e73-848d-6e31b6aa32a8-166999472015ab7b2b-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "6d0b43c2-e35c-4295-8111-1838e3bc34d0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15080802451490__6d0b43c2-e35c-4295-8111-1838e3bc34d0-166680286989cc5e2b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Dosing<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15080802451490__6d0b43c2-e35c-4295-8111-1838e3bc34d0-166680286989cc5e2b-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "a870b710-2e0b-4d23-8e7d-f79fb6a28b29": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15080802451490__a870b710-2e0b-4d23-8e7d-f79fb6a28b29-16662001030ac1929c-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/61e71435925589439f8b4f53_Website_Design_-_Image_Creations-05.png",
+            "title": "A true ‘micro-dose’... Great for typical wellness uses & far more effective than CBD focused products. (mood-enhancement, anxiety, relaxation, tension, pain, & sleep)",
+            "title1": "",
+            "text": "<p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15080802451490__a870b710-2e0b-4d23-8e7d-f79fb6a28b29-16662001030ac1929c-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/61e71434fad22d617b6ad62f_Website_Design_-_Image_Creations-04.png",
+            "title": "This is the sweet spot for those who want the classic euphoric effects & benefits of THC, considered by many to be a perfectly balanced ‘high’. (great for creative flow)",
+            "title1": "",
+            "text": "<p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15080802451490__a870b710-2e0b-4d23-8e7d-f79fb6a28b29-16662001030ac1929c-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/61e71434a897da7b3d7dd4f5_Website_Design_-_Image_Creations-03.png",
+            "title": "Three or more is only recommended for people who are familiar with the effects of two.",
+            "title1": "",
+            "text": "<p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15080802451490__a870b710-2e0b-4d23-8e7d-f79fb6a28b29-16662001030ac1929c-1",
+        "template--15080802451490__a870b710-2e0b-4d23-8e7d-f79fb6a28b29-16662001030ac1929c-0",
+        "template--15080802451490__a870b710-2e0b-4d23-8e7d-f79fb6a28b29-16662001030ac1929c-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c423dbf8-d9e8-4006-b598-ae1350609fee": {
+      "type": "multi-list",
+      "blocks": {
+        "template--17100663292212__c423dbf8-d9e8-4006-b598-ae1350609fee-16699979840a426d73-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/process1.png",
+            "text": "<p>We start with organic, US grown hemp from small family farmers who produce a wide range of the active hemp compounds known as cannabinoids & terpenes.<\/p>"
+          }
+        },
+        "template--17100663292212__c423dbf8-d9e8-4006-b598-ae1350609fee-16699979840a426d73-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/process2.png",
+            "text": "<p>Cannabinoids are tiny, shiny, milky, mushroom shaped crystals that produce the majority of benefits associated with hemp and cannabis. CBD, THC, & CBG are popular examples of cannabinoids, and terpenes are like the essential oils of hemp.<\/p>"
+          }
+        },
+        "template--17100663292212__c423dbf8-d9e8-4006-b598-ae1350609fee-16699979840a426d73-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/process3.png",
+            "text": "<p>Once harvested, we gently separate the cannabinoids & terpenes from the non-active parts of the plant to produce highly concentrated hemp extracts.<\/p>"
+          }
+        },
+        "a48628ef-8ed3-4118-ac15-2a12dee1c808": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/process4.png",
+            "text": "<p>Our proprietarily formulated Balanced-Spectrum™ hemp extract is created from a specific ratio of cannabinoids & terpenes that we nano-emulsify into tiny little droplets that can easily & rapidly be absorbed by your body for consistent, accurate dosing, every-time.<\/p>"
+          }
+        },
+        "2b51508b-5673-4ce6-bae4-65c1dab6c89e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/process5.png",
+            "text": "<p>Microdose Gummies™ are made using the highest quality organic ingredients possible. They're vegan-friendly, gluten-free, & infused with Oregon grown berries.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17100663292212__c423dbf8-d9e8-4006-b598-ae1350609fee-16699979840a426d73-0",
+        "template--17100663292212__c423dbf8-d9e8-4006-b598-ae1350609fee-16699979840a426d73-1",
+        "template--17100663292212__c423dbf8-d9e8-4006-b598-ae1350609fee-16699979840a426d73-2",
+        "a48628ef-8ed3-4118-ac15-2a12dee1c808",
+        "2b51508b-5673-4ce6-bae4-65c1dab6c89e"
+      ],
+      "settings": {
+        "title": "Our Process",
+        "button_label": "3rd party tested, every step of the way.",
+        "button_link": ""
+      }
+    },
+    "783aacd0-5812-4105-9b91-29b53e72c5e8": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17100663292212__783aacd0-5812-4105-9b91-29b53e72c5e8-16699996782e803e52-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/61e9e3ada053d61877459a46_MICRODOSE_B3_copy.png",
+            "title": "Tastes like juicy",
+            "title1": "strawberries, blueberries, & marionberries.",
+            "text": "<p>Vegan · Non-GMO · Gluten-Free<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17100663292212__783aacd0-5812-4105-9b91-29b53e72c5e8-16699996782e803e52-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/pages\/shop",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "f9adb59b-51b1-400f-839b-0cafa263dfc7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class = \"questions\">\n<h2>Questions?..<\/h2>\n<div>\n<a href=\"sms:1-415-737-5864?&body=\" class=\"contact_us\">Text Us<\/a>\n<\/div>\n<div>\n<a href=\"sms:1-415-737-5864?&body=\" class=\"contact_us\">Ask Us Anything<\/a>\n<\/div>\n<\/div>",
+        "color_scheme": "inverse",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "8b5f077c-1cea-49c0-a495-a3a3501db4ac": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17100663292212__8b5f077c-1cea-49c0-a495-a3a3501db4ac-167027144465c05bbd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tincture.png",
+            "title": "Tincture",
+            "title1": "",
+            "text": "<p><\/p>",
+            "link_label": "Show Now",
+            "link": ""
+          }
+        },
+        "template--17100663292212__8b5f077c-1cea-49c0-a495-a3a3501db4ac-167027144465c05bbd-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/high-thc.png",
+            "title": "Strain-Specific Gummies",
+            "title1": "(High-THC)",
+            "text": "<p><\/p>",
+            "link_label": "Shop Now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17100663292212__8b5f077c-1cea-49c0-a495-a3a3501db4ac-167027144465c05bbd-0",
+        "template--17100663292212__8b5f077c-1cea-49c0-a495-a3a3501db4ac-167027144465c05bbd-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "a72d401f-aaca-485e-9af9-00d85beb925f",
+    "bb4d32c6-c645-435c-ab0a-1d0a5a80c8ea",
+    "5d4c85c8-11b2-41b5-a6c1-71e06af819cb",
+    "f28405b7-cb1e-43fd-929e-21f148172023",
+    "c8a8c59d-8b19-4e73-848d-6e31b6aa32a8",
+    "6d0b43c2-e35c-4295-8111-1838e3bc34d0",
+    "a870b710-2e0b-4d23-8e7d-f79fb6a28b29",
+    "c423dbf8-d9e8-4006-b598-ae1350609fee",
+    "783aacd0-5812-4105-9b91-29b53e72c5e8",
+    "f9adb59b-51b1-400f-839b-0cafa263dfc7",
+    "8b5f077c-1cea-49c0-a495-a3a3501db4ac"
+  ]
+}

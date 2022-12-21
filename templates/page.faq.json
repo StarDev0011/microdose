@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 28
+      }
+    },
+    "e9501cc6-b690-447b-9a69-df74f6e0e6c1": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--17036050333998__e9501cc6-b690-447b-9a69-df74f6e0e6c1-166976802664d7850d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FAQ<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17036050333998__e9501cc6-b690-447b-9a69-df74f6e0e6c1-166976802664d7850d-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "42c8dd79-554e-453e-b515-f1dd0ffcbafc": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17194844389678__42c8dd79-554e-453e-b515-f1dd0ffcbafc-167096762035f7d44b-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I fail a drug test?",
+            "icon": "none",
+            "row_content": "<p>CBD (cannabidiol itself) will not cause you to fail a drug test for THC.  However, Lumi products contain trace levels of hemp-derived THC (less than 0.3%) which can result in a positive testing for a THC drug test. <\/p><p><span style=\"text-decoration:underline\">When considering drug testing, it’s important to note<\/span> that even \"THC-free\" products can still fail drug tests for THC, as virtually all hemp derived products contain some amount of THC. THC can build up within your system and cause a drug test failure.<\/p><p><span style=\"text-decoration:underline\">Fortunately, the federal government permits the allowance of THC derived from hemp under 0.3%, which means consuming THC is now a right of US citizens.  Many employers will not go out of their way to explain this to their employees, but it is something we strongly encourage you to share with your friends & family. We believe everyone should be informed on this topic so that they can enjoy the benefits of hemp-derived THC.<\/span><\/p>",
+            "page": ""
+          }
+        },
+        "54fc0416-af3a-46f5-84a2-5a2984b82059": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If all products contain less than 0.3%, how is your product different?",
+            "icon": "none",
+            "row_content": "<p>Our products contain a specific balance of various terpenes & cannabinoids which are emulsified in a manner that increases bioavailability and effects. <\/p><p><\/p><p>While having specific amounts of CBD, CBG, & other trace cannabinoids and terpenes, the classic effects of Delta-9-THC can really stand out and not be drowned by the overuse of CBD or any other cannabinoids. This creates a unique experience that goes far beyond the standard entourage effect.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17194844389678__42c8dd79-554e-453e-b515-f1dd0ffcbafc-167096762035f7d44b-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What about products with more milligrams...Aren’t those stronger?",
+            "icon": "none",
+            "row_content": "<p>Not all cannabinoids are created equal. \"Total cannabinoids\" is NOT an accurate method of comparing products, considering product efficacy, and\/or value as it does not include key considerations, such as proprietary extraction methods and formulations developed through organic chemistry practices, (eg. terpene infusions, emulsifications, bioavailability, cannabinoid types) as they greatly differ in dosage, effects, and ration balancing which are all major considerations of cannabinoid product efficacy.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17194844389678__42c8dd79-554e-453e-b515-f1dd0ffcbafc-167096762035f7d44b-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much should I take?",
+            "icon": "none",
+            "row_content": "<p>For first timers we have a saying, \"you can always take more, but you can't take less.\" <\/p><p><\/p><p>Start out with one gummy. Wait up to 2 hours. If you do not have your desired effect, take another one. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17194844389678__42c8dd79-554e-453e-b515-f1dd0ffcbafc-167096762035f7d44b-0",
+        "54fc0416-af3a-46f5-84a2-5a2984b82059",
+        "template--17194844389678__42c8dd79-554e-453e-b515-f1dd0ffcbafc-167096762035f7d44b-1",
+        "template--17194844389678__42c8dd79-554e-453e-b515-f1dd0ffcbafc-167096762035f7d44b-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "accent-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "12dd87fd-62e0-4f33-89db-ca784158e1d4": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--17194844389678__12dd87fd-62e0-4f33-89db-ca784158e1d4-1670529568e151d7de-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Questions?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17194844389678__12dd87fd-62e0-4f33-89db-ca784158e1d4-1670529568e151d7de-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections",
+            "button_target1": false,
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_target2": false,
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17194844389678__12dd87fd-62e0-4f33-89db-ca784158e1d4-1670529568e151d7de-0",
+        "template--17194844389678__12dd87fd-62e0-4f33-89db-ca784158e1d4-1670529568e151d7de-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e9501cc6-b690-447b-9a69-df74f6e0e6c1",
+    "42c8dd79-554e-453e-b515-f1dd0ffcbafc",
+    "12dd87fd-62e0-4f33-89db-ca784158e1d4"
+  ]
+}

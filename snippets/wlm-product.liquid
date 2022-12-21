@@ -1,0 +1,112 @@
+{%- assign w_continue = 'no' -%}
+{% assign wlmHideItem_Product = false %}{% assign wlmLockedTags133782 = false %}
+{% assign wlmLockedTags133783 = false %}
+{% assign wlmLockedTags134313 = false %}
+{% assign wlmLockedTags134314 = false %}
+{% assign wlmLockedTags135621 = false %}
+{% assign wlmLockedTags135622 = false %}
+{% for tag in customer.tags %}
+{% if tag == 'aggressive' %}{% assign wlmLockedTags133782 = true %}{% endif %}
+{% if tag == 'very aggressive' %}{% assign wlmLockedTags133783 = true %}{% endif %}
+{% if tag == 'common' %}{% assign wlmLockedTags134313 = true %}{% endif %}
+{% if tag == 'Silver Tier' %}{% assign wlmLockedTags134314 = true %}{% endif %}
+{% if tag == 'Bottles' %}{% assign wlmLockedTags135621 = true %}{% endif %}
+{% if tag == 'Bags' %}{% assign wlmLockedTags135622 = true %}{% endif %}
+{% endfor %}
+
+{% if wlm-product.id == 7128891621410 %} 
+{% if customer %}
+{% assign  wlmHideItem_Product = true %}{% endif %}
+{% endif %}
+
+{% if wlm-product.id == 7128891621410 %} 
+{% if customer %}
+{% assign  wlmHideItem_Product = true %}{% endif %}
+{% endif %}
+
+{% if wlm-product.collections %}
+
+                            {% for c in wlm-product.collections %}
+{% if c.id == 276709310498 %} 
+{% unless customer %}
+{% assign  wlmHideItem_Product = true %}
+{% else %}
+{% unless wlmLockedTags135622 %}{% assign  wlmHideItem_Product = true %}{% endunless %}
+{% else %}
+{% assign  wlmHideItem_Product = true %}{% endunless %}
+
+{% endif %}
+{% endfor %}{% endif %}
+{% if wlm-product.id == 7128891621410 %} 
+{% if customer %}
+{% assign  wlmHideItem_Product = true %}{% endif %}
+{% endif %}
+
+{% if wlm-product.collections %}
+
+                            {% for c in wlm-product.collections %}
+{% if c.id == 276709310498 %} 
+{% unless customer %}
+{% assign  wlmHideItem_Product = true %}
+{% else %}
+{% unless wlmLockedTags135622 %}{% assign  wlmHideItem_Product = true %}{% endunless %}
+{% else %}
+{% assign  wlmHideItem_Product = true %}{% endunless %}
+
+{% endif %}
+{% endfor %}{% endif %}
+{% if wlm-product.collections %}
+
+                            {% for c in wlm-product.collections %}
+{% if c.id == 276709343266 %} 
+{% unless customer %}
+{% assign  wlmHideItem_Product = true %}
+{% else %}
+{% unless wlmLockedTags135621 %}{% assign  wlmHideItem_Product = true %}{% endunless %}
+{% else %}
+{% assign  wlmHideItem_Product = true %}{% endunless %}
+
+{% endif %}
+{% endfor %}{% endif %}
+{% if wlm-product.id == 7128891621410 %} 
+{% if customer %}
+{% assign  wlmHideItem_Product = true %}{% endif %}
+{% endif %}
+
+{% if wlm-product.collections %}
+
+                            {% for c in wlm-product.collections %}
+{% if c.id == 276709310498 %} 
+{% unless customer %}
+{% assign  wlmHideItem_Product = true %}
+{% else %}
+{% unless wlmLockedTags135622 %}{% assign  wlmHideItem_Product = true %}{% endunless %}
+{% else %}
+{% assign  wlmHideItem_Product = true %}{% endunless %}
+
+{% endif %}
+{% endfor %}{% endif %}
+{% if wlm-product.collections %}
+
+                            {% for c in wlm-product.collections %}
+{% if c.id == 276709343266 %} 
+{% unless customer %}
+{% assign  wlmHideItem_Product = true %}
+{% else %}
+{% unless wlmLockedTags135621 %}{% assign  wlmHideItem_Product = true %}{% endunless %}
+{% else %}
+{% assign  wlmHideItem_Product = true %}{% endunless %}
+
+{% endif %}
+{% endfor %}{% endif %}{% if wlm-product.id == 7155973029922 %} 
+{% unless customer %}
+{% assign  wlmHideItem_Product = true %}
+{% else %}
+{% endunless %}
+{% endif %}
+
+
+
+{% if wlmHideItem_Product == true %}{% continue %}{% endif %}
+
+{%- if wlm_is_render == 'yes' -%}{{- w_continue -}}{%-endif-%}

@@ -1,0 +1,178 @@
+{
+  "sections": {
+    "main": {
+      "type": "video-page",
+      "blocks": {
+        "7d210f62-bc94-4aaf-9484-8d6dc2b99cff": {
+          "type": "videos",
+          "settings": {
+            "videos_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e591aa7fa94041ea9698f593c4a25b18.mp4",
+            "videos_thumbnail": "shopify:\/\/shop_images\/2clip-poster-00001.jpg",
+            "title": "Cannabinoid Market",
+            "content": "<p>Everything you need to know about cannabinoids (synthetics vs natural D9) and your competition.<\/p>",
+            "embed": "https:\/\/player.vimeo.com\/video\/758906990?h=a1fc2ebbe0&app_id=122963",
+            "thumb": "https:\/\/i.vimeocdn.com\/video\/1524345135-e269f92b773b759c2ffd0b8b6a8e73387ec02381fc1086a7c5640fcc193af38d-d_960"
+          }
+        },
+        "3450ed2c-de71-4e8d-be58-0602039b1b0e": {
+          "type": "videos",
+          "settings": {
+            "videos_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/bab7e07ea3fd4f589d14fe03d72fc439.mp4",
+            "videos_thumbnail": "shopify:\/\/shop_images\/3-poster-00001.jpg",
+            "title": "Legal",
+            "content": "<p>Over 90% of hemp retailers don’t understand the law, their legal risks, and how to minimize it.<\/p>",
+            "embed": "https:\/\/player.vimeo.com\/video\/758907548?h=25d7f74351&app_id=122963",
+            "thumb": "https:\/\/i.vimeocdn.com\/video\/1524346491-24bf8ce8a98d27c24f3d4b9ef09600b25e9aa6d6fe1fb5a7947f128dc8e981e0-d_960"
+          }
+        },
+        "cb3e1880-8320-47e8-b48f-0ecdf7d922f0": {
+          "type": "videos",
+          "settings": {
+            "videos_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/bd307d1ac23f41c9b5705dc4ff24446d.mp4",
+            "videos_thumbnail": "shopify:\/\/shop_images\/6345c5a699c443fecb03807a_Sequence_12-poster-00001.jpg",
+            "title": "Profitability",
+            "content": "<p>Top 3 Principles: education, margin, & getting customers to happily spend more<\/p>",
+            "embed": "https:\/\/player.vimeo.com\/video\/758908257?h=051d89f703&app_id=122963",
+            "thumb": "https:\/\/i.vimeocdn.com\/video\/1524348829-6435c578f621338aaadadb90ed0942ca5afa2f44ae3aea0d7ad95e003defb15b-d_960"
+          }
+        },
+        "77726fe7-9e30-4efc-8c16-ea864b749009": {
+          "type": "videos",
+          "settings": {
+            "videos_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/05a7a60df97b48279c31d9c1daac46d7.mp4",
+            "videos_thumbnail": "shopify:\/\/shop_images\/4reel-poster-00001.jpg",
+            "title": "Customer Types",
+            "content": "<p>Customer segments, targeting, loyalty, and how to make more money on every sale.<\/p>",
+            "embed": "https:\/\/player.vimeo.com\/video\/758900332?h=0959f62391&app_id=122963",
+            "thumb": "https:\/\/i.vimeocdn.com\/video\/1524331878-5170bde7197aca8ac1848bc9998ee0a0843f661e1fb907406d52d56bc56dedaf-d_960"
+          }
+        },
+        "cd9d1170-f613-4647-9979-a2a9dfcf7ac0": {
+          "type": "videos",
+          "settings": {
+            "videos_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d719ff41cc9a44c58821b761770fd839.mp4",
+            "videos_thumbnail": "shopify:\/\/shop_images\/634ee6edebe13ad8400c62c9_mg_dose_-_2-poster-00001.jpg",
+            "title": "MG Per Dose",
+            "content": "<p>Cheap, high mg products cause retailers to miss the mark with affluent customers and lose profit.<\/p>",
+            "embed": "https:\/\/player.vimeo.com\/video\/758907171?h=ac4efe2dda&app_id=122963",
+            "thumb": "https:\/\/i.vimeocdn.com\/video\/1524345863-85218b9d089b427577d5ea10da8fcd0c3b16dc9e81f9dbc825b60e34b08e5e39-d_960"
+          }
+        },
+        "8aefcccb-9112-4698-8241-778bcb3f745f": {
+          "type": "videos",
+          "settings": {
+            "videos_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2c526ccebbbb4a86836cb4d4e9748b95.mp4",
+            "videos_thumbnail": "shopify:\/\/shop_images\/6345c07e40615c3182ddf422_Pricing_-_reel-poster-00001.jpg",
+            "title": "Pricing",
+            "content": "<p>In-store only products and price structure that saves your customers over 20% off online pricing.<\/p>",
+            "embed": "https:\/\/player.vimeo.com\/video\/758907716?h=ff1f91fded&app_id=122963",
+            "thumb": "https:\/\/i.vimeocdn.com\/video\/1524348042-0c751993dd1aa785fcc64bfd3af23ca9a0370441584aabcb6db0e33fceaad389-d_960"
+          }
+        },
+        "280463ff-05a2-4702-8040-9a273b52dfd0": {
+          "type": "videos",
+          "settings": {
+            "videos_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/acc2cc6b07334d6bb70703bd82739fb5.mp4",
+            "videos_thumbnail": "shopify:\/\/shop_images\/3reel-poster-00001.jpg",
+            "title": "Product",
+            "content": "<p>Sativa, hybrid, indica genetics... Terpenes profiles & cannabinoid ratios.<\/p>",
+            "embed": "https:\/\/player.vimeo.com\/video\/758907932?h=195a4a5a40&app_id=122963",
+            "thumb": "http:\/\/i.vimeocdn.com\/video\/1524348102-ec8c75578d298bd73faf5151d32124fa5d4cefb4fdf73b8f192e2234d122554b-d_960"
+          }
+        },
+        "fde383c8-e3c9-464e-8962-6a6ba74325ef": {
+          "type": "videos",
+          "settings": {
+            "videos_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c3c1635f23f6447c8e54598897991f19.mp4",
+            "videos_thumbnail": "shopify:\/\/shop_images\/clip-poster-00001.jpg",
+            "title": "About Us",
+            "content": "<p>For connoisseurs. By connoisseurs.<\/p>",
+            "embed": "https:\/\/player.vimeo.com\/video\/758906929?h=3f72fe5c7c&app_id=122963",
+            "thumb": "https:\/\/i.vimeocdn.com\/video\/1524344832-1c779a2587ec5a1ea6cf69c1d4fc61fb0082d00a1cb559b415788e32a8ed168a-d_960"
+          }
+        },
+        "d182ed60-9ab5-4963-9b7c-1a7f696611e7": {
+          "type": "videos",
+          "settings": {
+            "videos_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ab9f9678ce4541a0bf28327417c238ae.mp4",
+            "videos_thumbnail": "shopify:\/\/shop_images\/6361821a00ea2c76b5deffcd_starter_bundle_reel-poster-00001.jpg",
+            "title": "Starter Bundle",
+            "content": "<p>All you need to get started. 100% satisfaction guaranteed!<\/p>",
+            "embed": "https:\/\/player.vimeo.com\/video\/768178578?h=e02d5064d0",
+            "thumb": "https:\/\/i.vimeocdn.com\/video\/1486460900-459e8bd52a54ca8e0b157a444805f43fe268110efbf3890e60fd358c7cc658e8-d_1280"
+          }
+        }
+      },
+      "block_order": [
+        "7d210f62-bc94-4aaf-9484-8d6dc2b99cff",
+        "3450ed2c-de71-4e8d-be58-0602039b1b0e",
+        "cb3e1880-8320-47e8-b48f-0ecdf7d922f0",
+        "77726fe7-9e30-4efc-8c16-ea864b749009",
+        "cd9d1170-f613-4647-9979-a2a9dfcf7ac0",
+        "8aefcccb-9112-4698-8241-778bcb3f745f",
+        "280463ff-05a2-4702-8040-9a273b52dfd0",
+        "fde383c8-e3c9-464e-8962-6a6ba74325ef",
+        "d182ed60-9ab5-4963-9b7c-1a7f696611e7"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28,
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c97abdc5a8a5473985745479dd41839a.mp4",
+        "img": "shopify:\/\/shop_images\/636179a17fe44082831b_00_00_11_20221108-111731.png",
+        "title": "STRAIN SPECIFIC GUMMIES",
+        "content": "Hemp-Derived, Delta-9-THC Gummies from Designer Genetics",
+        "videos_title": "<p>Learn how top retailers profit <\/p><p>5-10x more than the rest.<\/p>",
+        "videos_content": "The following videos cover key considerations for hemp retailers. Make sure to watch them all to get a complete understanding of what sets apart the best from the rest.",
+        "link": ""
+      }
+    },
+    "c1947aed-f235-4376-b76e-4958bf30a5bc": {
+      "type": "rich-text",
+      "blocks": {
+        "bbcfbad5-967f-4e91-adcf-eb3401730d1f": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Shop Wholesale<\/strong><\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "template--15097785286690__c1947aed-f235-4376-b76e-4958bf30a5bc-1667637827119df027-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "New Customers",
+            "button_link": "https:\/\/lumi-ws.myshopify.com\/products\/starter-bundle",
+            "button_target1": false,
+            "button_style_secondary": false,
+            "button_label_2": "Returning Customers",
+            "button_link_2": "https:\/\/lumi-ws.myshopify.com\/account\/login",
+            "button_target2": false,
+            "button_style_secondary_2": false
+          }
+        },
+        "97838a18-2e11-49e2-84cd-4cf97e0b523e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>New Customers: <\/strong>Order a Starter Bundle and we'll set up your official account where you'll be able to access individual cases and 40% off wholesale.<\/p><p><strong>Returning Customers: <\/strong><a href=\"\/account\/login\" title=\"\/account\/login\">Login<\/a> to access all products.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "bbcfbad5-967f-4e91-adcf-eb3401730d1f",
+        "template--15097785286690__c1947aed-f235-4376-b76e-4958bf30a5bc-1667637827119df027-2",
+        "97838a18-2e11-49e2-84cd-4cf97e0b523e"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c1947aed-f235-4376-b76e-4958bf30a5bc"
+  ]
+}

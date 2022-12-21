@@ -1,0 +1,414 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "de017123-ca65-4870-b8f1-756551107e84": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "cac74de6-7386-4472-87cb-1495647075f4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Retail Value Per Case: $200",
+            "text_style": "body"
+          }
+        },
+        "6682e9c3-06ad-4948-875b-96f9ec8ed61f": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Standard Wholesale Price: $100 ",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "c96e0c44-e1b8-4359-9cfa-555fc7dbf0b4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating",
+        "variant_picker",
+        "de017123-ca65-4870-b8f1-756551107e84",
+        "quantity_selector",
+        "buy_buttons",
+        "cac74de6-7386-4472-87cb-1495647075f4",
+        "6682e9c3-06ad-4948-875b-96f9ec8ed61f",
+        "description",
+        "share",
+        "c96e0c44-e1b8-4359-9cfa-555fc7dbf0b4"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "medium",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 28,
+        "padding_bottom": 12
+      }
+    },
+    "collapsible-content": {
+      "type": "collapsible-content",
+      "blocks": {
+        "d8f898b8-c673-4a16-9688-06f6350b8fda": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Contents",
+            "icon": "none",
+            "row_content": "<p>Cases of 5 Bottles<\/p><p>900mg \/ 30 gummies (per bottle)<\/p><p>3 Consumer Booklets<\/p>",
+            "page": ""
+          }
+        },
+        "cb8d7564-e598-4b5c-b9df-9758f6dbd239": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Durban Zkittlez · (S)",
+            "icon": "none",
+            "row_content": "<p>A sativa dominant cross of Zkittlez (Grape Ape X Grapefruit) and Durban Poison, an indigenous sativa from the South African port city of Durban.<br\/><\/p><p>Major terpenes... Limonene, a-Pinene, Valencene<br\/><\/p><p>Tastes like... Tutti frutti.<\/p>",
+            "page": ""
+          }
+        },
+        "335af6a8-69c3-49d0-a52e-d720ed024507": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Orange Cream Cookies · (S)",
+            "icon": "none",
+            "row_content": "<p>A vibrant, sativa dominant cross of Orange Creamsicle (Orange Crush X Juicy Fruit) paired with a hint of classic Girl Scout Cookies (OG Kush X Durban Poison).<br\/><\/p><p>Major terpenes... Valencene, Limonene, b-Pinene<br\/><\/p><p>Tastes like... Orange creamsicle.<\/p>",
+            "page": ""
+          }
+        },
+        "4b0a9d41-6bf4-431c-8dbe-470f5b685805": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Sour Strawberry Cookies · (H)",
+            "icon": "none",
+            "row_content": "<p>A balanced cross of Sour Diesel (Chemdawg X Super Skunk), Strawberry Haze (a highly regarded haze phenotype), and Animal Cookies (Fire OG X Girl Scout Cookies).<br\/><\/p><p>Major terpenes... Terpinolene, a-Pinene, Myrcene<br\/><\/p><p>Tastes like... Strawberry jam, with a little sour kick.<\/p>",
+            "page": ""
+          }
+        },
+        "b1880aa7-d86a-4237-999d-a60fc8f181f9": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Watermelon Sorbet · (H)",
+            "icon": "none",
+            "row_content": "<p>A new age cross of Gelato #45 (Sunset Sherbet X Thin Mint Girl Scout Cookies), Zkittlez (Grape Ape X Grapefruit), and Watermelon OG.<br\/><\/p><p>Major terpenes... b-Caryophyllene, Limonene, Humulene<br\/><\/p><p>Tastes like... Juicy watermelon.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Granddaddy Sour OG · (I)",
+            "icon": "none",
+            "row_content": "<p>A heavy hitting blend of iconic strains... Granddaddy Purple (Mendo Purps X Skunk X Afghan Kush), Sour Diesel (Chemdawg X Super Skunk), and OG Kush (Chemdawg X Lemon Thai X Hindu Kush).<br\/><\/p><p>Major terpenes... Myrcene, b-Caryophyllene, Linalool<br\/><\/p><p>Tastes like... Fruit punch with a bit of sour & grape.<\/p>",
+            "page": ""
+          }
+        },
+        "1cab4686-6890-4bb8-9373-459d1ac235a0": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Cotton Candy Kush · (I)",
+            "icon": "none",
+            "row_content": "<p>A complex cross of strains from around the world... Hawaiian Afghani, Skunk #1 (Central America X Thailand X Afghanistan), and Power Plant (South Africa).<br\/><\/p><p>Major terpenes... Myrcene, Linalool, Nerolidol<br\/><\/p><p>Tastes like... Classic cotton candy.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "row_content": "<p>Organic Cane Sugar<\/p><p>Organic Tapioca Syrup<\/p><p>Organic Balanced-Spectrum Hemp Extract (a proprietary formulation of hemp-derived CBD, THC, CBG, other trace cannabinoids, & terpenes)<\/p><p>Organic Fruit<\/p><p>Organic MCT Oil (a purified part of coconut oil)<\/p><p>Organic Fruit Pectin<\/p><p>Organic Citric Acid<\/p><p>· · ·<\/p><p><strong>Vegan · Non-GMO · Gluten-Free<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "8e6579ce-38ce-4893-9d1f-b58a8f002d32": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "The No Nos",
+            "icon": "none",
+            "row_content": "<p>· NO semi-synthetic cannabinoids<\/p><p>· NO synthetic cannabinoids<\/p><p>· NO isolated cannabinoids<\/p><p>· NO gelatin<\/p><p>· NO corn syrup<\/p><p>· NO artificial flavors<\/p><p>· NO artificial colors<\/p><p>· NO high fructose<\/p><p>· NO GMOs<\/p><p>· NO FD&C dyes<\/p><p>· NO gluten<\/p><p>· NO dairy<\/p><p>· NO sugar alcohols<\/p><p>· NO artificial sweeteners<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Legal Considerations & COA",
+            "icon": "none",
+            "row_content": "<p>These products contain no synthetic or semi-synthetic cannabinoids and contains less than 0.3% THC. <\/p><p>All cannabinoids within these product are naturally derived from industrial hemp.<\/p><p>All Lumi Labs products are <a href=\"\/pages\/coas\" target=\"_blank\" title=\"Lumi Gummies COAs\">3rd Party Tested<\/a>.<\/p><p>Learn more: Legal Considerations Videos<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "d8f898b8-c673-4a16-9688-06f6350b8fda",
+        "cb8d7564-e598-4b5c-b9df-9758f6dbd239",
+        "335af6a8-69c3-49d0-a52e-d720ed024507",
+        "4b0a9d41-6bf4-431c-8dbe-470f5b685805",
+        "b1880aa7-d86a-4237-999d-a60fc8f181f9",
+        "collapsible-row-1",
+        "1cab4686-6890-4bb8-9373-459d1ac235a0",
+        "collapsible-row-3",
+        "8e6579ce-38ce-4893-9d1f-b58a8f002d32",
+        "collapsible-row-2"
+      ],
+      "settings": {
+        "caption": "Real fruit gummies, nano-infused with Delta-9-THC, other cannabinoids, & strain-specific terpenes.",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "accent-2",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "578715cb-6d74-4bf4-ad26-1f665eb1c9fa": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15080802418722__578715cb-6d74-4bf4-ad26-1f665eb1c9fa-1666044358ef5ee58d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Questions?<\/strong><\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "template--15080802418722__578715cb-6d74-4bf4-ad26-1f665eb1c9fa-1666044358ef5ee58d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Text or call us: <a href=\"sms:+18332892237\">833-BUY-CBDS<\/a><\/p><p>We also have these videos... <\/p>"
+          }
+        },
+        "template--15080802418722__578715cb-6d74-4bf4-ad26-1f665eb1c9fa-1666044358ef5ee58d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Videos",
+            "button_link": "https:\/\/lumidistro.com\/pages\/videos",
+            "button_target1": true,
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_target2": false,
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15080802418722__578715cb-6d74-4bf4-ad26-1f665eb1c9fa-1666044358ef5ee58d-0",
+        "template--15080802418722__578715cb-6d74-4bf4-ad26-1f665eb1c9fa-1666044358ef5ee58d-1",
+        "template--15080802418722__578715cb-6d74-4bf4-ad26-1f665eb1c9fa-1666044358ef5ee58d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "91e263dd-016e-49c1-b156-9702d46da52f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15083385028642__91e263dd-016e-49c1-b156-9702d46da52f-1667582750a1eed382-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Connoisseur Quality<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15083385028642__91e263dd-016e-49c1-b156-9702d46da52f-1667582750a1eed382-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "857b3fe5-f6b8-4960-82a3-af44ea325b04": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15083385028642__857b3fe5-f6b8-4960-82a3-af44ea325b04-16675438525b0a9cc8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Design_-_Process_Image_Creations-09.png",
+            "title": "",
+            "text": "<p>We start with organic, US grown hemp from small family farmers who produce a wide range of the active hemp compounds known as cannabinoids & terpenes.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15083385028642__857b3fe5-f6b8-4960-82a3-af44ea325b04-16675438525b0a9cc8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Design_-_Process_Image_Creations-08.png",
+            "title": "",
+            "text": "<p>Cannabinoids are tiny, shiny, milky, mushroom shaped crystals that produce the majority of effects (e.g. THC, CBN, CBD, & CBG). Terpenes are like the essential oils of hemp. Each of our strains contains a unique combination of cannabinoids & terpenes that produce unique effects.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15083385028642__857b3fe5-f6b8-4960-82a3-af44ea325b04-16675438525b0a9cc8-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Design_-_Process_Image_Creations-07.png",
+            "title": "",
+            "text": "<p>Once harvested, we gently separate the cannabinoids & terpenes from the non-active parts of the plant to produce highly concentrated hemp extracts.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "62cc7e93-b527-463c-b157-a4d0e8e6214f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Design_-_Process_Image_Creations-06.png",
+            "title": "",
+            "text": "<p>Our hemp extracts are created using strain-specific ratios of cannabinoids & terpenes that we nano-emulsify into tiny little droplets that can easily & rapidly be absorbed by your body, helping you get the most out of every milligram, every-time.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "668545fe-912f-41d3-8951-5d0ae9ec7980": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Design_-_Process_Image_Creations-01.png",
+            "title": "",
+            "text": "<p>Our strain-specific gummies are made using the highest quality organic ingredients possible. They're vegan-friendly, gluten-free, & infused with real fruit.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "21be55e5-3663-4dca-aee3-6f190f1a8b1a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lumi_Logo_-_Circle_Colorful_Background-03.png",
+            "title": "",
+            "text": "<p>Nothing we offer is generic, including our margins. We work directly with retailers so you can offer connoisseur quality, while making 3x your money on every sale.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15083385028642__857b3fe5-f6b8-4960-82a3-af44ea325b04-16675438525b0a9cc8-0",
+        "template--15083385028642__857b3fe5-f6b8-4960-82a3-af44ea325b04-16675438525b0a9cc8-1",
+        "template--15083385028642__857b3fe5-f6b8-4960-82a3-af44ea325b04-16675438525b0a9cc8-2",
+        "62cc7e93-b527-463c-b157-a4d0e8e6214f",
+        "668545fe-912f-41d3-8951-5d0ae9ec7980",
+        "21be55e5-3663-4dca-aee3-6f190f1a8b1a"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "31280b4b-40c5-4229-bcd8-a9e649e565da": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"ss-gummies-add-to-cart\">\n{%- assign product_form_id = 'product-form-' | append: section.id -%}\n<div\n                class=\"product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}\"\n                {{ block.shopify_attributes }}\n              >\n                {%- comment -%} <label class=\"form__label\" for=\"Quantity-{{ section.id }}\">\n                  {{ 'products.product.quantity.label' | t }}\n                <\/label> {%- endcomment -%}\n\n                <quantity-input class=\"quantity\">\n                  <button class=\"quantity__button no-js-hidden\" name=\"minus\" type=\"button\">\n                    <span class=\"visually-hidden\">\n                      {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}\n                    <\/span>\n                    {% render 'icon-minus' %}\n                  <\/button>\n                  <input\n                    class=\"quantity__input\"\n                    type=\"number\"\n                    name=\"quantity\"\n                    id=\"Quantity-{{ section.id }}\"\n                    min=\"1\"\n                    value=\"1\"\n                    form=\"{{ product_form_id }}\"\n                  >\n                  <button class=\"quantity__button no-js-hidden\" name=\"plus\" type=\"button\">\n                    <span class=\"visually-hidden\">\n                      {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}\n                    <\/span>\n                    {% render 'icon-plus' %}\n                  <\/button>\n                <\/quantity-input>\n              <\/div>\n <product-form class=\"product-form\">\n                  <div class=\"product-form__error-message-wrapper\" role=\"alert\" hidden>\n                    <svg\n                      aria-hidden=\"true\"\n                      focusable=\"false\"\n                      role=\"presentation\"\n                      class=\"icon icon-error\"\n                      viewBox=\"0 0 13 13\"\n                    >\n                      <circle cx=\"6.5\" cy=\"6.50049\" r=\"5.5\" stroke=\"white\" stroke-width=\"2\"\/>\n                      <circle cx=\"6.5\" cy=\"6.5\" r=\"5.5\" fill=\"#EB001B\" stroke=\"#EB001B\" stroke-width=\"0.7\"\/>\n                      <path d=\"M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z\" fill=\"white\"\/>\n                      <path d=\"M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z\" fill=\"white\" stroke=\"#EB001B\" stroke-width=\"0.7\">\n                    <\/svg>\n                    <span class=\"product-form__error-message\"><\/span>\n                  <\/div>\n\n                  {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}\n                    <input\n                      type=\"hidden\"\n                      name=\"id\"\n                      value=\"{{ product.selected_or_first_available_variant.id }}\"\n                      disabled\n                    >\n                    <div class=\"product-form__buttons\">\n                    {% unless product.handle == 'starter-bundle' %}\n                      <button\n                        type=\"submit\"\n                        name=\"add\"\n                        class=\"product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}\"\n                        {% if product.selected_or_first_available_variant.available == false %}\n                          disabled\n                        {% endif %}\n                      >\n                        <span>\n                          {%- if product.selected_or_first_available_variant.available -%}\n                            {{ 'products.product.add_to_cart' | t }}\n                          {%- else -%}\n                            {{ 'products.product.sold_out' | t }}\n                          {%- endif -%}\n                        <\/span>\n                        <div class=\"loading-overlay__spinner hidden\">\n                          <svg\n                            aria-hidden=\"true\"\n                            focusable=\"false\"\n                            role=\"presentation\"\n                            class=\"spinner\"\n                            viewBox=\"0 0 66 66\"\n                            xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\n                          >\n                            <circle class=\"path\" fill=\"none\" stroke-width=\"6\" cx=\"33\" cy=\"33\" r=\"30\"><\/circle>\n                          <\/svg>\n                        <\/div>\n                      <\/button>\n                      {% endunless %}\n                      {%- if block.settings.show_dynamic_checkout -%}\n                        {{ form | payment_button }}\n                      {%- endif -%}\n                    <\/div>\n                  {%- endform -%}\n                <\/product-form>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible-content",
+    "product-recommendations",
+    "578715cb-6d74-4bf4-ad26-1f665eb1c9fa",
+    "91e263dd-016e-49c1-b156-9702d46da52f",
+    "857b3fe5-f6b8-4960-82a3-af44ea325b04",
+    "31280b4b-40c5-4229-bcd8-a9e649e565da"
+  ]
+}

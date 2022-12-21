@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "26224206-efaa-41a8-ad39-eb6ef7014a16": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17298474139956__26224206-efaa-41a8-ad39-eb6ef7014a16-1671581604bc3869c7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Lumi Labs<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17298474139956__26224206-efaa-41a8-ad39-eb6ef7014a16-1671581604bc3869c7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We (Lumi Labs) are currently headquartered in Portland, OR but got our start in the San Francisco Bay Area and have team members from all around helping us on our mission:<\/p><p>“To inspire further exploration, through the delivery of plant-based experiences”<\/p><p>Since 2010, we’ve been working with cannabinoids & terpenes... as farmers, genetics experts, and extraction facility operators within the legal, California cannabis industry.<\/p><p>In late 2018, we shifted entirely over to industrial hemp as we noticed the opportunity to bring our experience into a market that quickly became flooded with generic products and mediocre consumer experiences.<\/p><p>Since our entry into hemp, we’ve launched over 26 proprietarily formulated products across multiple categories… all designed, developed, and manufactured exclusively by us, for you.<\/p><p>_<\/p><p>If you have a passion for expanding people's lives and raising awareness around cannabinoids & psychedelic assisted psychotherapy, please reach out!  <\/p><p>We’d love to hear from you.<\/p><p>: )<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17298474139956__26224206-efaa-41a8-ad39-eb6ef7014a16-1671581604bc3869c7-0",
+        "template--17298474139956__26224206-efaa-41a8-ad39-eb6ef7014a16-1671581604bc3869c7-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "1934830e-e16c-4030-9b96-592cc052109f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17298474139956__1934830e-e16c-4030-9b96-592cc052109f-1671581604bc3869c7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17298474139956__1934830e-e16c-4030-9b96-592cc052109f-1671581604bc3869c7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17298474139956__1934830e-e16c-4030-9b96-592cc052109f-1671581604bc3869c7-0",
+        "template--17298474139956__1934830e-e16c-4030-9b96-592cc052109f-1671581604bc3869c7-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "279091a1-07b0-45da-a042-ea28d48058db": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_target1": false,
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_target2": false,
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-0",
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-1",
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "26224206-efaa-41a8-ad39-eb6ef7014a16",
+    "1934830e-e16c-4030-9b96-592cc052109f",
+    "279091a1-07b0-45da-a042-ea28d48058db",
+    "main",
+    "newsletter"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "279091a1-07b0-45da-a042-ea28d48058db": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_target1": false,
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_target2": false,
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-0",
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-1",
+        "template--17100663390516__279091a1-07b0-45da-a042-ea28d48058db-1671558174da9d630d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "291dc42b-3369-4595-a284-65c44c84f9f4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17100663390516__291dc42b-3369-4595-a284-65c44c84f9f4-1671557743610dcb9b-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If all products contain less than 0.3%… How’s ‘Balanced-Spectrum’ different from ‘full-spectrum’?  ",
+            "icon": "none",
+            "row_content": "<p>Our Balanced-Spectrum™ used within Microdose Drops™ has been proprietarily formulated and is very different from other ‘full-spectrum’ products that also contain less than 0.3% because it contains a specific ‘balance’ of various terpenes & cannabinoids which are emulsified in a manner that increases bioavailability and effects. Virtually all full-spectrum hemp products contain less than 1\/4mg THC per dose while Microdose Drops™ contains 3mg THC per dose (3,000mg drop)… While also having specific amounts of CBD, CBG, & other trace cannabinoids and terpenes so the classic effects of Delta-9-THC can really stand out and not be drowned by the overuse of CBD or any other cannabinoid… Creating a unique experience that goes far beyond the standard entourage effect.<br\/><br\/>We created Microdose Drops™ so you could have an experience that’s not simply THC, but an experience that allows you to try “effective, entry-level doses of THC”, without having the fear of getting ‘too high’ from just ‘ 1 ’ micro-dose.<br\/><br\/>Finally, no other hemp product we know of contains 3mg of Delta-9-THC per dose.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17100663390516__291dc42b-3369-4595-a284-65c44c84f9f4-1671557743610dcb9b-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17100663390516__291dc42b-3369-4595-a284-65c44c84f9f4-1671557743610dcb9b-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17100663390516__291dc42b-3369-4595-a284-65c44c84f9f4-1671557743610dcb9b-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17100663390516__291dc42b-3369-4595-a284-65c44c84f9f4-1671557743610dcb9b-0",
+        "template--17100663390516__291dc42b-3369-4595-a284-65c44c84f9f4-1671557743610dcb9b-1",
+        "template--17100663390516__291dc42b-3369-4595-a284-65c44c84f9f4-1671557743610dcb9b-2",
+        "template--17100663390516__291dc42b-3369-4595-a284-65c44c84f9f4-1671557743610dcb9b-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "279091a1-07b0-45da-a042-ea28d48058db",
+    "291dc42b-3369-4595-a284-65c44c84f9f4",
+    "main",
+    "newsletter"
+  ]
+}

@@ -1,0 +1,55 @@
+{%- assign w_continue = 'no' -%}
+{% assign wlmHideItem_Collection = false %}{% assign wlmLockedTags133782 = false %}
+{% assign wlmLockedTags133783 = false %}
+{% assign wlmLockedTags134313 = false %}
+{% assign wlmLockedTags134314 = false %}
+{% assign wlmLockedTags135621 = false %}
+{% assign wlmLockedTags135622 = false %}
+
+
+{% assign wlmLockedTags133782 = false %}
+{% assign wlmLockedTags133783 = false %}
+{% assign wlmLockedTags134313 = false %}
+{% assign wlmLockedTags134314 = false %}
+{% assign wlmLockedTags135621 = false %}
+{% assign wlmLockedTags135622 = false %}
+{% for tag in customer.tags %}
+{% if tag == 'aggressive' %}{% assign wlmLockedTags133782 = true %}{% endif %}
+{% if tag == 'very aggressive' %}{% assign wlmLockedTags133783 = true %}{% endif %}
+{% if tag == 'common' %}{% assign wlmLockedTags134313 = true %}{% endif %}
+{% if tag == 'Silver Tier' %}{% assign wlmLockedTags134314 = true %}{% endif %}
+{% if tag == 'Bottles' %}{% assign wlmLockedTags135621 = true %}{% endif %}
+{% if tag == 'Bags' %}{% assign wlmLockedTags135622 = true %}{% endif %}
+{% endfor %}
+
+{% assign wlmHideItem_Collection = false %}
+
+{% if wlm-collection.id == 276709310498  %}
+{% unless customer %}
+{% assign wlmHideItem_Collection = true %}
+{% else %}
+{% unless wlmLockedTags135622 %}{% assign wlmHideItem_Collection = true %}
+{% endunless %}
+{% else %}
+{% assign wlmHideItem_Collection = true %}
+{% endunless %}
+{% endif %}
+
+{% assign wlmHideItem_Collection = false %}
+
+{% if wlm-collection.id == 276709343266  %}
+{% unless customer %}
+{% assign wlmHideItem_Collection = true %}
+{% else %}
+{% unless wlmLockedTags135621 %}{% assign wlmHideItem_Collection = true %}
+{% endunless %}
+{% else %}
+{% assign wlmHideItem_Collection = true %}
+{% endunless %}
+{% endif %}
+
+
+
+{% if wlmHideItem_Collection == true %}{% continue %}{% endif %}
+
+{%- if wlm_is_render == 'yes' -%}{{- w_continue -}}{%-endif-%}

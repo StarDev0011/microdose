@@ -1,0 +1,306 @@
+{{ 'video-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&display=swap');
+  .video-text{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 95vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 0.9vw;
+    position: absolute;
+    left: 0;color:#fff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 95vh;
+    font-family: 'Red hat display', sans-serif;
+  }
+  .video-wrapper h2{
+    margin-bottom: 0px;
+    font-size: 4vw;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.08px;
+    line-height: 0.9;margin-top: 0;
+    text-transform: uppercase;color:#fff;
+    font-family: 'Red hat display', sans-serif;
+  }
+  .video-wrapper p{
+    margin-top: 11px;
+    font-size: 1.8em;
+    text-align: center;
+    letter-spacing: 0.07em;color:#fff;
+    font-family: 'Red hat display', sans-serif;
+    margin-bottom: 0;
+    line-height: 20px;
+  }
+  @media screen and (min-width: 1920px){
+    .video-wrapper h2{font-size: 3vw;}
+    .video-wrapper p{
+        margin-top: 14px;
+        font-size: 1.2em;
+        letter-spacing: 0.05em;
+    }
+  }
+  @media screen and (max-width: 991px){
+    .video-wrapper h2{font-size: 5vw;}
+  }
+  @media screen and (max-width: 767px){
+    .video-wrapper p{font-size: 2.1em;}
+  }
+  @media screen and (max-width: 479px){
+    .video-wrapper h2{font-size: 7em;letter-spacing: 0.055em;}
+    .video-wrapper p {
+    margin-top: 2px;
+    font-size: 2.96em;
+    letter-spacing: 0.09em;
+}
+  }
+  .featured-video video {
+    display: block;
+    width: 100%;
+    min-height: 95vh;
+    max-height: 95vh;
+    object-fit: cover;
+}
+  .video-wrapper {
+    padding-bottom: 0%;
+    position: relative;
+    overflow:hidden;
+    padding-top: 0;
+  height: 0;min-height: 95vh;
+}
+.video-wrapper iframe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    border: none;
+    transform: translate(-50%, -50%);
+    object-fit: fill;   
+}
+  @media screen and (max-width: 749px) {
+    .featured-video video{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    bottom: -100%;
+    top: -100%;
+    left: -100%;
+    object-fit: cover;
+    z-index: -100;
+      object-position: center;
+      position: absolute;
+    min-height: 0;
+    max-height: 100%;
+    }
+.video-wrapper {
+    padding-bottom: 100%;  min-height: 0;  
+}
+    .video-wrapper iframe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+    transform: translate(-50%, -50%);
+}
+  }
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="featured-video color-{{ section.settings.color_scheme }} gradient">
+  <div class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
+    {%- unless section.settings.heading == blank -%}<div{% if section.settings.full_width %} class="page-width"{% endif %}>
+        <div class="title-wrapper title-wrapper--no-top-margin">
+          <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+        </div>
+    </div>{%- endunless -%}
+    <div class="video-wrapper">
+      {%- unless section.settings.title == blank or section.settings.subtitle == blank -%}
+      <div class="video-text">
+        <h2>{{ section.settings.title }}</h2>
+        {{ section.settings.subtitle }}
+      </div>
+      {%- endunless -%}
+    {%- if section.settings.video_url.type == 'youtube' -%} 
+      <iframe src="http://www.youtube.com/embed/{{ section.settings.video_url.id }}?controls=0&autoplay=1&mute=1&loop=1" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
+    {%- elsif section.settings.mp4 != blank -%} 
+      <video {% if section.settings.poster %}poster="{{ section.settings.poster | img_url:'master'}}" {% endif %} id="{{ section.id }}-video" autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover" class="video">
+        <source src="{{ section.settings.mp4 }}" data-wf-ignore="true">        
+      {%- else -%}
+      <iframe src="http://player.vimeo.com/video/{{ section.settings.video_url.id }}?controls=0&autoplay=1&loop=1&muted=1" class="js-vimeo" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
+    {%- endif -%}
+    </div>
+  </div>
+</div>
+
+<script>
+ Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+get: function () {
+return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+}
+});
+document.body.addEventListener("click", playVideoOnLowPower);
+document.body.addEventListener("touchstart", playVideoOnLowPower);
+function playVideoOnLowPower(){
+try{
+const videoElements = document.querySelectorAll("video");
+for (i = 0; i < videoElements.length; i++) {
+if (videoElements[i].playing) {
+// video is already playing so do nothing
+console.log('Playing');
+}
+else {
+// video is not playing so play video now
+videoElements[i].play();
+console.log('Not Playing');
+}
+}
+}
+catch(err) {
+console.log(err);
+} 
+}
+</script>
+
+        
+{% schema %}
+{
+  "name": "Featured Video",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "image_picker",
+      "id": "poster",
+      "label": "Poster"
+    },
+    {
+      "type": "video_url",
+      "id": "video_url",
+      "accept": [
+        "youtube",
+        "vimeo"
+      ],
+      "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+      "label": "t:sections.video.settings.video_url.label",
+      "placeholder": "t:sections.video.settings.video_url.placeholder",
+      "info": "t:sections.video.settings.video_url.info"
+    },
+    {
+      "type": "text",
+      "id": "mp4",
+      "label": "MP4 Video link"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "t:sections.video.settings.description.label",
+      "info": "t:sections.video.settings.description.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "t:sections.video.settings.full_width.label",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Video"
+    }
+  ]
+}
+{% endschema %}
