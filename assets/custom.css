@@ -150,7 +150,7 @@ h2.image-with-text__heading.h1 {
   line-height: 1.1;
 }
 div#ImageWithText--template--17100663292212__a72d401f-aaca-485e-9af9-00d85beb925f
-  .image-with-text__text--caption {
+  .image-with-text__text--caption, div#ImageWithText--template--17301628518708__a72d401f-aaca-485e-9af9-00d85beb925f .image-with-text__text--caption {
   font-size: 3.5vw;
   font-weight: 900;
   font-family: "HelveticaNowText";
@@ -414,7 +414,7 @@ img.image-3 {
 @media screen and (min-width: 1800px) {
   h2.image-with-text__heading.h1,
   div#ImageWithText--template--17100663292212__a72d401f-aaca-485e-9af9-00d85beb925f
-    .image-with-text__text--caption {
+    .image-with-text__text--caption, div#ImageWithText--template--17301628518708__a72d401f-aaca-485e-9af9-00d85beb925f .image-with-text__text--caption {
     font-size: 57px;
   }
   .image-with-text__text.rte.body p {
@@ -478,7 +478,7 @@ img.image-3 {
   }
   h2.image-with-text__heading.h1,
   div#ImageWithText--template--17100663292212__a72d401f-aaca-485e-9af9-00d85beb925f
-    .image-with-text__text--caption {
+    .image-with-text__text--caption, div#ImageWithText--template--17301628518708__a72d401f-aaca-485e-9af9-00d85beb925f .image-with-text__text--caption {
     font-size: 6vw;
   }
   .image-with-text__text.rte.body p {
@@ -554,7 +554,7 @@ img.image-3 {
   }
   h2.image-with-text__heading.h1,
   div#ImageWithText--template--17100663292212__a72d401f-aaca-485e-9af9-00d85beb925f
-    .image-with-text__text--caption {
+    .image-with-text__text--caption, div#ImageWithText--template--17301628518708__a72d401f-aaca-485e-9af9-00d85beb925f .image-with-text__text--caption {
     font-size: 8vw;
     letter-spacing: -0.5px;
   }
