@@ -284,6 +284,11 @@ section#shopify-section-template--17100663292212__a870b710-2e0b-4d23-8e7d-f79fb6
   font-weight: 700;
   font-size: 18px;
 }
+.image-with-text__content .button--primary {
+  border: solid 1px;
+  padding: 9px 15px;
+  letter-spacing: 0;
+}
 section#shopify-section-template--17100663292212__783aacd0-5812-4105-9b91-29b53e72c5e8
   .multicolumn-card__info
   h3 {
